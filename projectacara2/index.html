@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Bukittinggi</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#deskripsi">Deskripsi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#penduduk">Jumlah Penduduk</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#kecamatan">Kecamatan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#link">Website</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#photo&videos">Gambar</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Lainnya
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Deskripsi</a></li>
+            <li><a class="dropdown-item" href="#">Jumlah Penduduk</a></li>
+            <li><a class="dropdown-item" href="#">Kecamatan</a></li>
+            <li><a class="dropdown-item" href="#">Website</a></li>
+            <li><a class="dropdown-item" href="#">Gambar</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <main class="container mt-3">
+        <!-- tittle -->
+        <div class="alert alert-primary" role="alert">
+           <h2>Kota Bukittinggi</h2>
+           <h5>Sumatera Barat</h5>
+        </div>
+
+        <!-- description -->
+        <div class="card" id="deskripsi">
+            <div class="card-header">
+                Deskripsi
+        </div>
+            <div class="card-body">
+                <p class="card-text">Kota Bukittinggi terletak pada rangkaian Bukit Barisan yang membujur sepanjang pulau Sumatra, dan dikelilingi oleh dua gunung berapi yaitu Gunung Singgalang dan Gunung Marapi. Kota ini berada pada ketinggian 909–941 meter di atas permukaan laut, dan memiliki hawa sejuk dengan suhu berkisar antara 16.1–24.9 °C. 
+                    Sementara itu, dari total luas wilayah Kota Bukittinggi saat ini (25,24 km²), 82,8% telah diperuntukkan menjadi lahan budidaya, sedangkan sisanya merupakan hutan lindung.</p>
+                <p class="card-text">Kota ini memiliki topografi berbukit-bukit dan berlembah, beberapa bukit tersebut tersebar dalam wilayah perkotaan, di antaranya Bukit Ambacang, Bukit Tambun Tulang, Bukit Mandiangin, Bukit Campago, Bukit Kubangankabau, Bukit Pinang Nan Sabatang, Bukit Canggang, Bukit Paninjauan, dan sebagainya. 
+                    Selain itu, terdapat lembah yang dikenal dengan Ngarai Sianok dengan kedalaman yang bervariasi antara 75–110 m, yang di dasarnya mengalir sebuah sungai yang disebut dengan Batang Masang.</p>
+            </div>
+        </div>
+
+        <!-- population -->
+         <div class="card" id="penduduk">
+            <div class="card-header">
+                Penduduk
+            </div>
+            <div class="card-body">
+                <table class="table table-striped">
+                    <tr>
+                        <th>No</th>
+                        <td>Jenis Kelamin</td>
+                        <td>Jumlah</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Laki-laki</td>
+                        <td>63,11 ribu jiwa</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Perempuan</td>
+                        <td>125,92 ribu jiwa</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Kecamatan -->
+        <div class="card mt-3" id="kecamatan">
+            <div class="card-header">
+                Kecamatan
+            </div>
+                <ol>
+
+                    <li>Aur Birugo Tigo Baleh</li>
+                    <li> Guguak Panjang</li>
+                    <li> Mandiangin Koto Selayan </li>
+
+                </ol>
+            </div>
+        </div>
+
+        <!-- Link Website -->
+        <div class="card mt-3" id="link">
+            <div class="card-header">
+                Website
+        </div>
+            <div class="card-body">
+                <a href="https://bukittinggikota.go.id/public/index.php" target="_blank" rel="noopener noreferrer" title="Klik untuk membuka Website">Website Kota Bukittinggi</a>
+            </div>
+        </div>
+
+        <!-- Photo & Videos -->
+        <div class="card mt-3" id="photo&videos">
+            <div class="card-header">
+                Foto & Video
+        </div>
+            <!-- image -->
+            <div class="card-body">
+                <img src="https://hypeabis.id/assets/photo/20211123233441000000DJI0812.jpg" alt="" width="400px" 
+                title="Jam Gadang Kota Bukittingi">
+
+                <br><br>
+
+            <!-- iframe -->
+             <div class="card-body">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/RAQ0fuiHgso?si=WDCIbFvZ6IXv1cxa" title="YouTube video player" 
+         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
